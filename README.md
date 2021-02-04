@@ -8,7 +8,7 @@ Created following [this](https://scriptingosx.com/2019/12/random-terminal-backgr
 2. `cd terminal_colors`
 3. `chmod +x setup.sh && ./setup.sh`
 4. `cd ..`
-5. `rm -r terminal_colors`
+5. `rm -rf terminal_colors`
 
 This adds the `randombackground` command to your path so that you can run any time you are in the terminal.
 
