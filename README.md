@@ -10,7 +10,7 @@ Created following [this](https://scriptingosx.com/2019/12/random-terminal-backgr
 4. `cd ..`
 5. `rm -rf terminal_colors`
 
-This adds the `color` command to your path so that you can run any time you are in the terminal.
+This adds the `color` command to your path so that you can run any time you are in the terminal (restart terminal to use the command).
 
 ### Notes
 1. This has only works with Mac OS and ZSH
