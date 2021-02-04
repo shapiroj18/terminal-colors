@@ -1,6 +1,6 @@
 # Mac Terminal Color Changes
 
-Created following (this)[https://scriptingosx.com/2019/12/random-terminal-background-colors/] article!
+Created following [this](https://scriptingosx.com/2019/12/random-terminal-background-colors/) article!
 
 ### Installation
 
