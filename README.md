@@ -4,10 +4,11 @@ Created following [this](https://scriptingosx.com/2019/12/random-terminal-backgr
 
 ### Installation
 
-1. Clone repo
+1. `git clone https://github.com/shapiroj18/terminal_colors.git`
 2. `cd terminal_colors`
-3. `chmod +x .`
-4. `./setup.sh`
+3. `chmod +x setup.sh && ./setup.sh`
+4. `cd ..`
+5. `rm -r terminal_colors`
 
 This adds the `randombackground` command to your path so that you can run any time you are in the terminal.
 
