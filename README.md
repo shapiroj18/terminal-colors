@@ -13,8 +13,8 @@ Created following [this](https://scriptingosx.com/2019/12/random-terminal-backgr
 This adds the `color` command to your path so that you can run any time you are in the terminal (restart terminal to use the command).
 
 ### Running Script Manually
-1. `chmod +x color`
-2. `./color`
+1. `chmod +x color.sh`
+2. `./color.sh`
 
 ### Notes
 1. This has only works with Mac OS and ZSH
