@@ -38,9 +38,9 @@ for arg in "$@"
 do
     case "$arg" in
         -r|--random)
-        FILE=./saved_colors.txt
+        FILE=$BASE_PATH/saved_colors.txt
             if [ -f "$FILE" ]; then
-            rand_color=$(shuf -n 1 ./saved_colors.txt)
+            rand_color=$(shuf -n 1 $BASE_PATH/saved_colors.txt)
             osascript -e """
             tell application \"Terminal\"
                 set background color of selected tab of window 1 to {$rand_color}
@@ -54,17 +54,17 @@ do
         -s|--save)
         echo "Saving current color"
         chmod +x $BASE_PATH/get_current_terminal_color.scpt
-        $BASE_PATH/get_current_terminal_color.scpt >> saved_colors.txt
+        $BASE_PATH/get_current_terminal_color.scpt >> $BASE_PATH/saved_colors.txt
         shift
         ;;
         -d|--delete)
-        FILE=./saved_colors.txt
+        FILE=$BASE_PATH/saved_colors.txt
         if [ -f "$FILE" ]; then
             # sed on mac requires a backup file - https://stackoverflow.com/a/4247333/10002456
             chmod +x $BASE_PATH/get_current_terminal_color.scpt
             current_color=$($BASE_PATH/get_current_terminal_color.scpt)
             sed -i .bak "/$current_color/d" $FILE
-            rm saved_colors.txt.bak
+            rm $BASE_PATH/saved_colors.txt.bak
             echo "Deleted current color"
         fi
         shift
