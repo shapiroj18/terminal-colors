@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # help menu
 Help() {
     echo "Change color to your Mac OS Terminal"

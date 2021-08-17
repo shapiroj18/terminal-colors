@@ -5,7 +5,7 @@ Created following [this](https://scriptingosx.com/2019/12/random-terminal-backgr
 ### Installation
 
 1. `git clone https://github.com/shapiroj18/terminal_colors.git`
-2. `cd terminal_colors`
+2. `cd terminal-colors`
 3. `chmod +x setup.sh && ./setup.sh`
 4. `cd ..`
 5. `rm -rf terminal-colors`
