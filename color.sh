@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+BASE_PATH=$HOME/bin/terminal-colors
+
 # help menu
 Help() {
     echo "Change color to your Mac OS Terminal"
@@ -27,8 +29,8 @@ done
 
 if [ $# -eq 0 ]
 then
-    chmod +x random_terminal_color.scpt
-    ./random_terminal_color.scpt
+    chmod +x $BASE_PATH/random_terminal_color.scpt
+    $BASE_PATH/random_terminal_color.scpt
 fi
 
 
@@ -51,16 +53,16 @@ do
         ;;
         -s|--save)
         echo "Saving current color"
-        chmod +x get_current_terminal_color.scpt
-        ./get_current_terminal_color.scpt >> saved_colors.txt
+        chmod +x $BASE_PATH/get_current_terminal_color.scpt
+        $BASE_PATH/get_current_terminal_color.scpt >> saved_colors.txt
         shift
         ;;
         -d|--delete)
         FILE=./saved_colors.txt
         if [ -f "$FILE" ]; then
             # sed on mac requires a backup file - https://stackoverflow.com/a/4247333/10002456
-            chmod +x get_current_terminal_color.scpt
-            current_color=$(./get_current_terminal_color.scpt)
+            chmod +x $BASE_PATH/get_current_terminal_color.scpt
+            current_color=$($BASE_PATH/get_current_terminal_color.scpt)
             sed -i .bak "/$current_color/d" $FILE
             rm saved_colors.txt.bak
             echo "Deleted current color"
@@ -68,7 +70,7 @@ do
         shift
         ;;
         -c|--clear)
-        rm saved_colors.txt
+        rm $BASE_PATH/saved_colors.txt
         shift
         ;;
     esac
