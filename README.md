@@ -8,7 +8,7 @@ Created following [this](https://scriptingosx.com/2019/12/random-terminal-backgr
 2. `cd terminal_colors`
 3. `chmod +x setup.sh && ./setup.sh`
 4. `cd ..`
-5. `rm -rf terminal_colors`
+5. `rm -rf terminal-colors`
 
 This adds the `color` command to your path so that you can run any time you are in the terminal (restart terminal to use the command).
 

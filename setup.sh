@@ -11,6 +11,6 @@ if [ ! -f ~/.zshrc ]; then
     touch ~/.zshrc
 fi
 
-if ! grep -q 'export PATH=\$PATH":\$HOME\/bin\/terminal-colors\"' ~/.zshrc; then 
-    echo 'export PATH=$PATH":$HOME/bin/terminal-colors"' >> ~/.zshrc
+if ! grep -q 'export PATH=\$PATH:\$HOME\/bin\/terminal-colors' ~/.zshrc; then 
+    echo 'export PATH=$PATH:$HOME/bin/terminal-colors' >> ~/.zshrc
 fi
