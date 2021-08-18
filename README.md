@@ -8,16 +8,16 @@ CLI for updating the macintosh terminal. Some ideas and code used from [this](ht
 
 ### Description
 The following option are avalable:
-**-h**, **--help**
-        Retrieve the help menu.
-**-s**, **--save**
-        Save current terminal color.
-**-r**, **--random**
-        Get random terminal color from saved colors.
-**-d**, **--delete**
-        Deletes current terminal color from saved colors.
-**-c**, **--clear**
-        Clear saved terminal colors.
+**-h**, **--help** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieve the help menu. <br />
+**-s**, **--save** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save current terminal color. <br />
+**-r**, **--random** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get random terminal color from saved colors. <br />
+**-d**, **--delete** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deletes current terminal color from saved colors. <br />
+**-c**, **--clear** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear saved terminal colors. <br />
 
 ## Installation
 
