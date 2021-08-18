@@ -7,7 +7,7 @@ CLI for updating the macintosh terminal. Some ideas and code used from [this](ht
 **color** [**-h**] [**-s**] [**-r**] [**-d**] [**-c**]
 
 ### Description
-The following option are avalable:
+The following option are avalable: <br />
 **-h**, **--help** <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieve the help menu. <br />
 **-s**, **--save** <br />
