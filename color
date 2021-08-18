@@ -8,10 +8,10 @@ Help() {
     echo
     echo "Syntax: color [-h|s]"
     echo "options:"
-    echo "-h|--help        Help menu."
+    echo "-h|--help        Retrieve the help menu."
     echo "-s|--save        Save current terminal color."
-    echo "-r|--random      Get random terminal color from saved colors"
-    echo "-d|--delete      Deletes current terminal from saved colors."
+    echo "-r|--random      Get random terminal color from saved colors."
+    echo "-d|--delete      Deletes current terminal color from saved colors."
     echo "-c|--clear       Clear saved terminal colors."
 }
 
