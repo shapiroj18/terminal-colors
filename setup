@@ -6,6 +6,7 @@ fi
 
 # install coreutils via homebrew
 if [[ $(brew help) ]]; then
+    echo 'Updating Homebrew and installing coreutils, this may take a few minutes.'
     brew install coreutils
 else
     echo 'Install Homebrew and "brew install coreutils" if you want the full functionality of this terminal-colors.'
