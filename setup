@@ -4,6 +4,13 @@ if [ ! -d "~/bin" ]; then
   mkdir -p ~/bin
 fi
 
+# install coreutils via homebrew
+if [[ $(brew help) ]]; then
+    brew install coreutils
+else
+    echo 'Install Homebrew and "brew install coreutils" if you want the full functionality of this terminal-colors.'
+fi
+
 rm -rf ~/bin/terminal-colors
 git clone https://github.com/shapiroj18/terminal-colors.git ~/bin/terminal-colors
 
