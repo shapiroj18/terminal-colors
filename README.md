@@ -19,6 +19,10 @@ The following option are avalable: <br />
 **-c**, **--clear** <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear saved terminal colors. <br />
 
+## Dependencies
+* [homebrew](https://formulae.brew.sh/)
+* [coreutils](https://formulae.brew.sh/formula/coreutils)
+
 ## Installation
 
 1. `git clone https://github.com/shapiroj18/terminal-colors.git`
